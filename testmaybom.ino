@@ -22,6 +22,7 @@ const int soil_on = 30; // Bật máy bơm khi độ ẩm đất < 30% (đất k
 const int soil_off = 50; // Tắt máy bơm khi độ ẩm đất > 50% (đất đủ ẩm)
 
 bool auto_mode = false;
+
 void setup() {
   Serial.begin(115200);  
   
